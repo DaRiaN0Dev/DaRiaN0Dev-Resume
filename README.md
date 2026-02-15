@@ -31,27 +31,27 @@ Below is a preview of the live design:
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|-----------|---------|
-| **Next.js 14** | Main framework |
-| **React** | UI components |
-| **TailwindCSS** | Styling |
-| **TypeScript** | Type safety |
-| **React Icons** | Icons library |
-| **Vercel** | Deployment |
+| Technology      | Purpose        |
+| --------------- | -------------- |
+| **Next.js 14**  | Main framework |
+| **React**       | UI components  |
+| **TailwindCSS** | Styling        |
+| **TypeScript**  | Type safety    |
+| **React Icons** | Icons library  |
+| **Vercel**      | Deployment     |
 
 ---
 
 ## 📂 Project Structure
 
 app/
- ├─ globals.css
- ├─ page.tsx
+├─ globals.css
+├─ page.tsx
 public/
- ├─ demo-shot.png
+├─ demo-shot.png
 components/
- ├─ Navbar.tsx
- ├─ Sidebar.tsx
+├─ Navbar.tsx
+├─ Sidebar.tsx
 ...
 
 ---
@@ -72,7 +72,7 @@ npm run dev
 1. Go to: https://vercel.com
 2. Import your GitHub repo
 3. Deploy  
-Done! 🚀
+   Done! 🚀
 
 ---
 
