@@ -78,10 +78,10 @@ npm run dev
 
 ## 📬 Contact
 
-- **Name:** Darian Ramezani
+- **Name:** Mohammad Ramezani
 - **GitHub:** https://github.com/DaRiaN0Dev
-- **LinkedIn:** (add your link)
-- **Email:** (add your email)
+- **LinkedIn:** https://linkedin.com/in/DaRiaN0Dev
+- **Email:** MohammadRamezani.work@gmail.com
 
 ---
 
