@@ -23,14 +23,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-      # Disable Husky in CI
-      - name: Disable Husky
+      - name: Install dependencies (Husky disabled)
         run: |
-          npm pkg set scripts.prepare=""
-          rm -rf .husky
-
-      - name: Install dependencies
-        run: npm install
+          CI=true npm install
 
       - name: Run Lint (optional)
         run: npm run lint || true
