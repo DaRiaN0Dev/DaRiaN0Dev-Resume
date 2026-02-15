@@ -7,5 +7,5 @@ export default defineConfig({
   react: true,
   next: true,
   tailwind: true,
-  ignores: ["postcss.config.mjs", "eslint.config.mjs"],
+  ignores: ["postcss.config.mjs", "eslint.config.mjs", "tailwind.config.js", "next.config.js"],
 });

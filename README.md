@@ -1,41 +1,90 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 DaRiaN0Dev – Personal Resume Website
 
-## Getting Started
+A clean, modern, and fully responsive resume website built with **Next.js**, **React**, and **TailwindCSS**.
+This project showcases professional experience, skills, projects, and contact details in a polished, elegant UI.
 
-First, run the development server:
+---
+
+## 📸 Demo
+
+Below is a preview of the live design:
+
+![Demo](./public/demo-shot.png)
+
+---
+
+## ✨ Features
+
+- ⚡ **Next.js 14 (App Router)**
+- 📱 **Mobile-first responsive UI**
+- 🎨 **Modern TailwindCSS styling**
+- 🧭 Smooth sidebar menu for mobile
+- 🔍 Clean layout for resume sections:
+  - About Me
+  - Skills
+  - Experience
+  - Projects
+  - Contact
+- 🚀 Fast and optimized for deployment
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **Next.js 14** | Main framework |
+| **React** | UI components |
+| **TailwindCSS** | Styling |
+| **TypeScript** | Type safety |
+| **React Icons** | Icons library |
+| **Vercel** | Deployment |
+
+---
+
+## 📂 Project Structure
+
+app/
+ ├─ globals.css
+ ├─ page.tsx
+public/
+ ├─ demo-shot.png
+components/
+ ├─ Navbar.tsx
+ ├─ Sidebar.tsx
+...
+
+---
+
+## 🔧 Local Installation
 
 ```bash
+git clone https://github.com/DaRiaN0Dev/DaRiaN0Dev-Resume.git
+cd DaRiaN0Dev-Resume
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Deployment (Recommended: Vercel)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Go to: https://vercel.com
+2. Import your GitHub repo
+3. Deploy  
+Done! 🚀
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Name:** Darian Ramezani
+- **GitHub:** https://github.com/DaRiaN0Dev
+- **LinkedIn:** (add your link)
+- **Email:** (add your email)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# DaRiaN0Dev-Resume
-A fully responsive and animated resume/portfolio website developed with Next.js and TypeScript, designed to highlight my skills, work history, and technical projects.
->>>>>>> bf3d47b8ddfafdc0f2a5b44163bbac7d2fee8f98
+MIT License.
